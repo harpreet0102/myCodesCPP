@@ -19,7 +19,7 @@ public:
     {
         if (root == NULL)
             return;
-        sum = sum * 2 + root->val; // converting binary to decimal.
+        sum = sum * 2 + root->val; // converted binary to decimal.
         if (root->left == NULL && root->right == NULL)
             total += sum;
         sumRTL(root->left, sum);
