@@ -1,3 +1,12 @@
+//  SORT A LINKED LIST WHICH IS ALREADY SORTED IN ABSOLUTE VALUES
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// #define ll long long
+// #define pb push_back
+// #define all v.begin(), v.end()
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,13 +39,6 @@ void printList(Node *head)
     }
     cout << endl;
 }
-
-// #include <bits/stdc++.h>
-// using namespace std;
-
-// #define ll long long
-// #define pb push_back
-// #define all v.begin(), v.end()
 
 void sortList(Node **head)
 {
